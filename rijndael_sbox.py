@@ -2,8 +2,8 @@
 
 
 # x and y are nonnegative integers 
-# Their associated binary polynomails are multiplied. 
-# The associated integer to this prodcut is returned. 
+# Their associated binary polynomials are multiplied. 
+# The associated integer to this product is returned. 
 def multiply_ints_as_polynomials(x, y):
 	if x == 0 or y == 0:
 		return 0
