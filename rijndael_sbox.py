@@ -5,8 +5,6 @@
 # Their associated binary polynomials are multiplied. 
 # The associated integer to this product is returned. 
 def multiply_ints_as_polynomials(x, y):
-	if x == 0 or y == 0:
-		return 0
 	z = 0
 	while x != 0:
 		if x & 1 == 1:
@@ -19,8 +17,6 @@ def multiply_ints_as_polynomials(x, y):
 # Returns the number of bits that are used 
 # to store the non-negative integer x.
 def number_bits(x):
-	if x == 0:
-		return 0  
 	nb = 0
 	while x != 0:
 		nb += 1
