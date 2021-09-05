@@ -59,8 +59,6 @@ def rijndael_inverse(x):
 # considered as vectors of bits
 def dot_product(x, y):
 	z = x & y
-	if z == 0:
-		return 0
 	dot = 0  
 	while z != 0:
 		dot ^= z & 1
